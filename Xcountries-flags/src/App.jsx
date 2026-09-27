@@ -20,7 +20,7 @@ async function countries() {
     console.log(api_data[0].name)
   } catch (error) {
     console.log(error)
-    setData(error)
+   
   }
   
 }
