@@ -19,7 +19,7 @@ async function countries() {
     setData(api_data)
     console.log(api_data[0].name)
   } catch (error) {
-    console.log(error)
+       console.error("Error fetching data:", error)
    
   }
   
